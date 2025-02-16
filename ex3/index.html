@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Todo List</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <script src="index.js"></script>
+
+        <div class="note_adding_area">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" />
+            </div>
+            <div>
+                <label for="content">Content:</label>
+                <input type="text" id="content" />
+            </div>
+            <button onclick="addTodo()">Add Todo</button>
+        </div>
+
+        <div class="todo_list">
+            <ol id="todoList"></ol>
+        </div>
+    </body>
+</html>
